@@ -42,9 +42,12 @@ img{
    display: flex;
    align-items: center;
    gap: 40px;
-   padding: 24px 0;
+   
 }
 
+.nav-item{
+   padding: 24px 0;
+}
 
       
 .header-container{
@@ -149,12 +152,12 @@ section{
    display: block;
    align-items: center;
 }*/
-.cover-button{
+/*.cover-button{
    justify-content: center;
    display: flex;
    padding-top: 46px;
    
-}
+}*/
 
 .section-button{
    min-width: 169px;
@@ -169,6 +172,7 @@ section{
    cursor: pointer;
    display: block;
    border: none;
+   margin: 0 auto;
 
 
 }
@@ -324,6 +328,7 @@ li>p{
 .portfolip-box-photo{
    padding: 32px 16px;
    border: 1px solid #e7e9fc;
+   border-top: none;
 }
 
 .portfolio-title-list{
