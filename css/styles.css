@@ -14,7 +14,9 @@
  h1,h2,h3,h4,h5,h6,p{
    margin: 0;
  }
-
+img{
+   display: block;
+}
  a{
    text-decoration: none;
  }
@@ -118,7 +120,7 @@ li>p:hover{
 /*---------------main-----------------*/
     /*-----section-one-----*/
 section{
-   padding-top: 120px;
+   
 }   
 
 .section-title{
@@ -129,7 +131,7 @@ section{
 
 .section-titles-list{
    /*margin: 188px auto 0 auto;*/
-   padding: 0px 0 0px 0;
+   padding-top: 188px;
    margin: 0 auto;
    max-width: 496px;
    color: #FFFFFF;
@@ -151,7 +153,7 @@ section{
    justify-content: center;
 }
 
-button{
+.section-button{
    min-width: 169px;
    min-height: 56px;
    border-radius: 4px;
@@ -162,6 +164,8 @@ button{
    line-height: 1.5;
    letter-spacing: 0.04em;
    cursor: pointer;
+   display: block;
+   border: none;
 }
 
 button:hover,
@@ -197,10 +201,20 @@ li>p{
 }
 
 .strategy{
-
+   padding-top: 120px;
 }
 
 .title-strategy{
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
 }
 
 .stranegy-box{
@@ -238,6 +252,7 @@ li>p{
 }
 
 .page-team{
+   padding-top: 120px;
 }
 
 .team-item{
@@ -276,11 +291,11 @@ li>p{
 
 }
 .title-portfolio{
-
+   padding-top: 120px;
+   margin-bottom: 72px;
 }
 
 .box-portfolio{
-   padding-top: 72px;
    display: flex;
    flex-wrap: wrap;
    row-gap: 48px;
@@ -291,7 +306,8 @@ li>p{
 .portfolio-item{
    max-width: 360px;
    margin: 0 auto;
-   border: 1px solid rgb(231, 233, 252);
+   border: 1px solid #e7e9fc;
+   
 }
 
 .portfolio-photo{
@@ -300,8 +316,8 @@ li>p{
 
 .portfolio-title-list{
    padding-top: 32px;
-   padding-bottom: 8px;
    padding-left: 16px;
+   margin-bottom: 8px;
 
 }
 
@@ -311,17 +327,18 @@ li>p{
 }
 
 /*---------------footer---------------*/
-.footer-container{
+/*.footer-container{
    padding-top: 100px;
    padding-bottom: 100px;
 
  
 
-}
+}*/
 
 .section-title,
 .page-footer{
    background: #2E2F42;
+
    
 }
  
