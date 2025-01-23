@@ -42,7 +42,10 @@ img{
    display: flex;
    align-items: center;
    gap: 40px;
+   padding: 24px 0;
 }
+
+
       
 .header-container{
    display: flex;
@@ -124,14 +127,15 @@ section{
 }   
 
 .section-title{
-   
+   padding: 188px 0;
+   background: #2E2F42;
 }
+
 
 
 
 .section-titles-list{
    /*margin: 188px auto 0 auto;*/
-   padding-top: 188px;
    margin: 0 auto;
    max-width: 496px;
    color: #FFFFFF;
@@ -146,11 +150,10 @@ section{
    align-items: center;
 }*/
 .cover-button{
-   display: flex;
-   margin: 0px auto;
-   padding-top: 46px;
-   padding-bottom: 188px;
    justify-content: center;
+   display: flex;
+   padding-top: 46px;
+   
 }
 
 .section-button{
@@ -166,6 +169,8 @@ section{
    cursor: pointer;
    display: block;
    border: none;
+
+
 }
 
 button:hover,
@@ -200,8 +205,9 @@ li>p{
       letter-spacing: 0.02em;
 }
 
+
 .strategy{
-   padding-top: 120px;
+   padding: 120px 0;
 }
 
 .title-strategy{
@@ -221,7 +227,6 @@ li>p{
    
    display: flex;
    align-items: center;
-   padding-bottom: 120px;
    gap: 24px;
    
 }
@@ -231,20 +236,20 @@ li>p{
 }
 
 .strategy-title-list{
-   margin: 0 auto;
+   margin-bottom: 8px;
 }
 
 .strategy-paragraph{
    margin: 0 auto;
-   padding-top: 8px;
+   
 }
 
 .team{
    background: #F4F4FD;
+   padding: 120px 0;
 }
 
 .team-box{
-   padding-top: 72px;
    display: flex;
    align-items: center;
    gap: 24px;
@@ -252,7 +257,8 @@ li>p{
 }
 
 .page-team{
-   padding-top: 120px;
+   margin-bottom: 72px;
+   
 }
 
 .team-item{
@@ -265,7 +271,7 @@ li>p{
 }
 
 .cover{
-   padding: 32px 16px;
+   padding: 32px 0px;
    text-align: center;
 }
 
@@ -274,7 +280,7 @@ li>p{
 }
 
 .team-title{
-   padding-bottom:  8px;
+   margin-bottom:  8px;
    
 }
 
@@ -288,10 +294,10 @@ li>p{
 }
 /*------------Portfolio------------*/
 .portfolio{
-
+   padding: 120px 0;
 }
 .title-portfolio{
-   padding-top: 120px;
+   
    margin-bottom: 72px;
 }
 
@@ -306,24 +312,28 @@ li>p{
 .portfolio-item{
    max-width: 360px;
    margin: 0 auto;
-   border: 1px solid #e7e9fc;
+   
    
 }
 
 .portfolio-photo{
+   
+   
+}
 
+.portfolip-box-photo{
+   padding: 32px 16px;
+   border: 1px solid #e7e9fc;
 }
 
 .portfolio-title-list{
-   padding-top: 32px;
-   padding-left: 16px;
+   
    margin-bottom: 8px;
 
 }
 
 .portfolio-paragraph{
-   padding-bottom: 32px;
-   padding-left: 16px;
+
 }
 
 /*---------------footer---------------*/
@@ -335,9 +345,11 @@ li>p{
 
 }*/
 
-.section-title,
+
+
 .page-footer{
    background: #2E2F42;
+   padding: 100px 0;
 
    
 }
@@ -350,9 +362,9 @@ li>p{
    display:inline-block
 }
 
-.footer-container{
+/*.footer-container{
    padding: 100px 0;
-}
+}*/
 
 .footer-paragraph{
       width: 264px;
